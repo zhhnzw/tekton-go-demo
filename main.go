@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	clients := operator.NewClients("Kubernetes", "default")
+	clients := operator.NewClients("", "default")
 	// git-resource.yaml
 	// 创建一个 PipelineResource CRD 对象来表示输入是从 git 仓库来获取代码
 	operator.CreateGitResource(clients)
