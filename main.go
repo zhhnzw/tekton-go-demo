@@ -1,7 +1,7 @@
 package main
 
 import (
-	"tekton-demo/demo/operator"
+	"tekton-go-demo/operator"
 )
 
 func main() {

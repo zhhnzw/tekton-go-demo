@@ -1,4 +1,4 @@
-module tekton-demo
+module tekton-go-demo
 
 go 1.16
 
